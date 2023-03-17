@@ -5,6 +5,7 @@ public class Test {
 	private String name;
 	private int no;
 	private String tel;
+
 	
 	public Test(String name, int no, String tel) {
 		super();
