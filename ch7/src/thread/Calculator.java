@@ -7,13 +7,13 @@ public class Calculator {
 		return memory;
 	}
 	
-	//동기화 메소드
-	public synchronized void setMemory(int memory) {
+	// 동기화메소드
+	public  synchronized void setMemory(int memory) {
 		this.memory = memory;
 		
 		try {
 			Thread.sleep(2000); //2초
-		} catch (InterruptedException e) {
+		} catch (InterruptedException e) {			
 			e.printStackTrace();
 		}
 		
