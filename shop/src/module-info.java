@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author falls
- *
- */
-module shop {
-}
